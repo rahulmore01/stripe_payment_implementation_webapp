@@ -3,9 +3,9 @@ import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
-      <h1>buy me nft</h1>
+    <div className="main">
+      <h1>buy me a course</h1>
       <button>checkout</button>
-    </>
+    </div>
   );
 }
