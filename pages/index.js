@@ -1,11 +1,12 @@
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
 export default function Home() {
+  const handleclick = () => {
+    console.log("clicked");
+  };
+
   return (
     <div className="main">
       <h1>buy me a course</h1>
-      <button>checkout</button>
+      <button onClick={handleclick}>checkout</button>
     </div>
   );
 }
